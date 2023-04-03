@@ -6,7 +6,7 @@ require('dotenv').config();
 // Google OAuth 2.0 인증에 필요한 설정
 const CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
 const CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
-const REDIRECT_URI = 'http://localhost:3000/auth/google/callback';
+const REDIRECT_URI = 'https://port-0-google-auth2-a4y62alg0nylxa.sel3.cloudtype.app/auth/google/callback';
 const SCOPES = ['profile', 'email'];
 
 // 구글 계정 인증 후 호출되는 콜백 함수
