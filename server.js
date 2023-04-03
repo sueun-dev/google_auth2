@@ -1,7 +1,7 @@
 // Import required modules and objects from the './auth' file
 const express = require('express');
 const session = require('express-session');
-const { passport, googleAuthOptions, logoutHandler, googleCallbackHandler, googleCallbackRedirect } = require('./auth');
+const { passport, googleAuthOptions, logoutHandler, googleCallbackHandler, googleCallbackRedirect } = require('./public/auth');
 
 // Create a new Express app
 const app = express();
